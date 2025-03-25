@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Our Products</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="cart.html">Cart</a>
+        </nav>
+    </header>
+
+    <div class="product-list">
+        <div class="product">
+            <img src="images/phone.jpg" alt="Phone">
+            <h3>Smartphone X</h3>
+            <p>$699</p>
+            <button onclick="addToCart('Smartphone X', 699)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="images/laptop.jpg" alt="Laptop">
+            <h3>Laptop Pro</h3>
+            <p>$1199</p>
+            <button onclick="addToCart('Laptop Pro', 1199)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="images/accessory.jpg" alt="Accessory">
+            <h3>Wireless Earbuds</h3>
+            <p>$199</p>
+            <button onclick="addToCart('Wireless Earbuds', 199)">Add to Cart</button>
+        </div>
+    </div>
+
+    <script src="js/cart.js"></script>
+</body>
+</html>
